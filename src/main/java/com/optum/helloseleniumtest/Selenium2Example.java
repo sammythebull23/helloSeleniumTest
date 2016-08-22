@@ -59,7 +59,7 @@ public class Selenium2Example {
         });*/
 
         // Should see: "cheese! - Google Search"
-        System.out.println("Page title is: " + driver.getTitle());
+        System.out.println("Page title is this: " + driver.getTitle());
         
         //Close the browser
         driver.quit();
